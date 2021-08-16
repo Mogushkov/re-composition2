@@ -1,0 +1,190 @@
+.container {
+  width: 80%;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title a, .title {
+  color: rgb(3, 3, 97);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 121px;
+}
+
+.announs {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.announs h2 {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.announs__title {
+  margin-top: 10px;
+
+}
+
+.announs__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.newsBlock {
+  margin-bottom: 10px;
+}
+
+.newsBlock span {
+  margin-left: 15px;
+}
+
+.news__item img {
+  display: inline-block;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.news__item {
+  margin-bottom: 3px;
+}
+
+.stocks {
+  display: flex;
+}
+
+.stocks li {
+  margin-left: 10px;
+}
+
+.stock__value {
+  color: rgb(59, 58, 58);
+  margin-left: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+
+.logo {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.search {
+  flex-grow: 1;
+}
+
+.form {
+  display: flex;
+  height: 40px;
+}
+
+.form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid rgb(255, 208, 0);
+}
+
+.form button {
+  width: 70px;
+  border: 1px solid rgb(255, 208, 0);
+  background-color: rgb(255, 208, 0);
+  color: white;
+}
+
+.category {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.category li {
+  margin-right: 10px;
+}
+
+.promo {
+  height: 70px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 122px;
+}
+
+.promo img {
+  object-fit: cover;
+  width: 100%;
+  height: 70px;
+}
+
+.media {
+  margin-left: 121px;
+  margin-top: 25px;
+  columns: 3;
+  column-gap: 2em;
+}
+
+.mediaBlock {
+  max-width: 230px;
+  margin-bottom: 20px;
+  break-inside: avoid;  
+}
+
+.mediaBlock .title {
+  margin-bottom: 10px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.weather span {
+  font-size: 25px;
+}
+
+.weather img {
+  width: 50px;
+}
+
+.visit {
+  font-size: 13px;
+}
+
+.visit span {
+  font-weight: 700;
+}
+
+.visit div {
+  margin-bottom: 5px;
+}
+
+.guide {
+  font-size: 14px;
+  color: rgb(104, 100, 100);
+}
+
+.guide span {
+  margin-right: 7px;
+  color: black;
+}
