@@ -1,5 +1,6 @@
+// eslint-disable-next-line
 import {categories} from '../../data/data';
-
+import PropTypes from 'prop-types';
 /**
  * Категории поиска
  */
@@ -7,9 +8,12 @@ import {categories} from '../../data/data';
 function Category() {
     return (
         <ul className="category">
-            {categories.map((item, index) => <li key={index} className="title"><a href="#">{item}</a></li>)}
+            {categories.map((item, i) => <li category={i} className="title"><a href="#">{item}</a></li>)}
         </ul>
     )    
+}
+Category.propTypes = {
+    item: PropTypes.object.isRequired
 }
 
 export default Category
